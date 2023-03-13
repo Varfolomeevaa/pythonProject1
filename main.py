@@ -3,12 +3,21 @@ import ru_local as ru
 print(ru.INTR)
 petrol_gln = float(input())
 
-petrol_ltr = petrol_gln * 3.7854                                # 1 gallon equals 3.7854 liters.
-oil_brl = petrol_gln / 19.5                                     # 1 barrel of oil equals 19.5 gallons of petrol.
-carbon_dioxide = petrol_gln * 20                                # 1 gallon of petrol equals 20 pounds of carbon dioxide.
-petrol_BTU = petrol_gln * 115_000                               # 1 gallon of petrol equals 115000 BTU.
-ethanol = petrol_BTU / 75_700                                   # 1 gallon of ethanol equals 75700 BTU.
-cost = petrol_gln * 3.00                                        # 1 gallon of petrol costs $3.00.
+'''
+1 gallon equals 3.7854 liters.
+1 barrel of oil equals 19.5 gallons of petrol.
+1 gallon of petrol equals 20 pounds of carbon dioxide.
+1 gallon of petrol equals 115000 BTU.
+1 gallon of ethanol equals 75700 BTU.
+1 gallon of petrol costs $3.00.
+'''
+
+petrol_ltr = petrol_gln * 3.7854
+oil_brl = petrol_gln / 19.5
+carbon_dioxide = petrol_gln * 20
+petrol_BTU = petrol_gln * 115_000
+ethanol = petrol_BTU / 75_700
+cost = petrol_gln * 3.00
 
 print(ru.PTRL_LT, petrol_ltr)
 print(ru.OIL, oil_brl)
