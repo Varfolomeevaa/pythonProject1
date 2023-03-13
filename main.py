@@ -22,5 +22,6 @@ PPL_RUSSIA = 146_980_061
 petrol_nsk = PTRL_PR_PRS * PPL_NSK
 petrol_r_day = PTRL_PR_PRS * PPL_RUSSIA
 petrol_r_year = petrol_r_day * 365
+
 print(ru.PTRL_NSK, petrol_nsk)
 print(ru.PTRL_R, petrol_r_year)
